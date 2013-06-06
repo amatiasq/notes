@@ -27,10 +27,20 @@ Para mostrar la rama actual en el prompt de la linea de comandos necesitamos el 
     curl https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh -o ~/.git-prompt.sh
     echo "source ~/.git-prompt.sh" >> ~/.bash_profile
 
-Now you can use `\$(__git_ps1)` in your prompt definition
+Ahora podemos usar `\$(__git_ps1)` en la definición del prompt
 
     PS1="\u:\w$(__git_ps1)$ "
 
-Or with colors:
+Incluso con colores
 
     PS1="\e[0;36m\u\e[0;37m:\e[0;33m\w\e[0;32m$(__git_ps1)\e[0;37m$ "
+
+Añadir la asignación de `PS1` al `.bash_profile` así se ejecutará al entrar al terminal
+
+    echo "PS1='\e[0;36m\u\e[0;37m:\e[0;33m\w\e[0;32m$(__git_ps1)\e[0;37m$ '" >> ~/.bash_profile
+    
+**NOTA**: Si no funciona intenta añadir las configuraciones a `.bashrc` en lugar de `.bash_profile`
+
+    echo "source ~/.git-prompt.sh" >> ~/.bashrc
+    echo "PS1='\e[0;36m\u\e[0;37m:\e[0;33m\w\e[0;32m$(__git_ps1)\e[0;37m$ '" >> ~/.bashrc
+
