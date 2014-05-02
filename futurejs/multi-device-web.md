@@ -1,0 +1,41 @@
+A CONCEPTUAL FUTURE FOR THE MULTI-DEVICE WEB
+============================================
+
+Ben Foxall
+@benjaminbenben
+Note: awesome speech demos
+
+---
+
+
+Desktop - huge interfaces, quick text interaction
+Mobile - touch interface portable, small
+
+Interconnect them as one more powerful tool
+
+Browsers are not all the web - like screenless sensors
+
+### Transports
+
+- Polling
+- Long polling (as good as websockets for sparse messaging)
+- websockets
+- webrtc
+
+(
+peerjs
+socket.io
+...
+)
+
+### Interfaces
+
+Paterns
+
+- Coherence
+- Syncronization
+- Screensharing
+- Device shifting
+...
+
+(share image between devices)
