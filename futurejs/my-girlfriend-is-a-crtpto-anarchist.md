@@ -2,8 +2,11 @@ MY GIRLFRIEND IS A CRYPTO-ANARCHIST AND SHE DOESN'T EVEN KNOW IT.
 =================================================================
 
 MAURO POMPILIO
+
 http://vmux.co/
+
 http://twitter.com/malditogeek
+
 http://github.com/malditogeek
 
 ---

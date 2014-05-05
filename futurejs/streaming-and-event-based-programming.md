@@ -2,8 +2,11 @@ STREAMING AND EVENT-BASED PROGRAMMING USING FRP AND RXJS
 ========================================================
 
 MATTHEW PODWYSOCKI
+
 http://codebetter.com/blogs/matthew.podwysocki
+
 http://twitter.com/mattpodwysocki
+
 http://github.com/mattpodwysocki
 
 ---

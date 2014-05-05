@@ -2,10 +2,16 @@ FIVE KEYS TO SUCCESS WHEN BUILDING HTML5 GAMES
 ==============================================
 
 JESSE FREEMAN
+
 http://jessefreeman.com/
+
 http://twitter.com/jessefreeman
+
 http://github.com/jessefreeman
+
 freej@amazon.com // offers feedback for html5 games
+
+He made 12 games in 12 month challenge
 
 ---
 

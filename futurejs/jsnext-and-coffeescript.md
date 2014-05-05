@@ -2,8 +2,11 @@ JS.NEXT AND COFFEESCRIPT
 ========================
 
 JEREMY ASHKENAS
+
 http://ashkenas.com/
+
 http://twitter.com/jashkenas
+
 http://github.com/jashkenas
 
 ---

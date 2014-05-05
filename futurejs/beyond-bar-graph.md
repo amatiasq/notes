@@ -2,8 +2,11 @@ BEYOND THE BAR GRAPH: CREATIVE VISUALIZATION WITH D3.JS
 =======================================================
 
 JOANNE CHENG
+
 http://joannecheng.me/
+
 http://twitter.com/joannecheng
+
 http://github.com/joannecheng
 
 ---

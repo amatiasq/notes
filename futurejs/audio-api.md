@@ -2,8 +2,11 @@ EVERYBODY DANCE NOW WITH WEB AUDIO API
 ======================================
 
 JAUME SÁNCHEZ
+
 http://clicktorelease.com/
+
 http://twitter.com/thespite
+
 http://github.com/spite
 
 ---
