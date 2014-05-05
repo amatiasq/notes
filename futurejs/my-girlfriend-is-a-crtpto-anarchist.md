@@ -11,7 +11,8 @@ http://github.com/malditogeek
 
 ---
 
-[Slides](http://is.gd/futurejs)
+[Slides](http://freefuture.herokuapp.com/)
+
 
 Secure services:
 

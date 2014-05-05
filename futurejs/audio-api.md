@@ -9,6 +9,8 @@ http://twitter.com/thespite
 
 http://github.com/spite
 
+[Slides](http://slides.com/jaumesanchez/barcelona-future-js-2014)
+
 ---
 
 Web audip API is to &lt;audio&gt; what canvas is to &lt;img&gt;
