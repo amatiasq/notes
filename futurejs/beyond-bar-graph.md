@@ -1,6 +1,13 @@
 BEYOND THE BAR GRAPH: CREATIVE VISUALIZATION WITH D3.JS
 =======================================================
 
+JOANNE CHENG
+http://joannecheng.me/
+http://twitter.com/joannecheng
+http://github.com/joannecheng
+
+---
+
 d3 is a tool to manipulate the DOM in a data-presentation focused way
 
     d3.csv('/planets.csv', function(planetsArray) {

@@ -1,6 +1,13 @@
 IMMUTABILITY, INTERACTIVITY & JAVASCRIPT
 ========================================
 
+DAVID NOLEN
+http://swannodette.github.io/
+http://twitter.com/swannodette
+http://github.com/swannodette
+
+---
+
 MVC cames from xerox computer times
 
 Implementations leave too much to be desired

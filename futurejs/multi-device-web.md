@@ -1,9 +1,11 @@
 A CONCEPTUAL FUTURE FOR THE MULTI-DEVICE WEB
 ============================================
 
-Ben Foxall
-@benjaminbenben
-Note: awesome speech demos
+BEN FOXALL
+http://benjaminbenben.com/
+http://twitter.com/benjaminbenben
+http://github.com/benfoxall
+Awesome speech demos
 
 ---
 

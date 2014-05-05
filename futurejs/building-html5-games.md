@@ -1,8 +1,14 @@
-5 Keys to success when building HTML5 games
--------------------------------------------
+FIVE KEYS TO SUCCESS WHEN BUILDING HTML5 GAMES
+==============================================
 
-@jessefreeman
+JESSE FREEMAN
+http://jessefreeman.com/
+http://twitter.com/jessefreeman
+http://github.com/jessefreeman
 freej@amazon.com // offers feedback for html5 games
+
+---
+
 http://bit.ly/freej-amzn
 
 **DONT REINVENT THE WEEL**

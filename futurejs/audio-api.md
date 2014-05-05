@@ -1,5 +1,12 @@
-Everybody dance with the Audio API
-----------------------------------
+EVERYBODY DANCE NOW WITH WEB AUDIO API
+======================================
+
+JAUME SÁNCHEZ
+http://clicktorelease.com/
+http://twitter.com/thespite
+http://github.com/spite
+
+---
 
 Web audip API is to &lt;audio&gt; what canvas is to &lt;img&gt;
 
