@@ -13,7 +13,7 @@ freej@amazon.com // offers feedback for html5 games
 
 He made 12 games in 12 month challenge
 
-Video: https://www.youtube.com/watch?v=X6u1I3Prbnc
+[Video](https://www.youtube.com/watch?v=X6u1I3Prbnc)
 
 ---
 
