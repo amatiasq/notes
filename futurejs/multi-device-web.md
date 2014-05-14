@@ -9,7 +9,7 @@ http://twitter.com/benjaminbenben
 
 http://github.com/benfoxall
 
-[Video](https://www.youtube.com/watch?v=1mkShXn_buA)
+Awesome speech demos: [Video](https://www.youtube.com/watch?v=1mkShXn_buA)
 
 ---
 
