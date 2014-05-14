@@ -1,0 +1,690 @@
+<div class="slides">
+    <section class="" data-id="59c148b2c8348ac1ebdefb39add33d55">
+        <h1>
+            <br>
+        </h1>
+        <h1 class="absolute-element" style="position: absolute; width: 709px; height: 103px; z-index: 4; left: 125px; top: 175px;">
+            <span style="font-size: 115.362px;">Game of Life</span>
+            <br>
+        </h1>
+        <div>
+            <br>
+        </div>
+        <div class="absolute-element" style="position: absolute; width: 316px; height: 46px; z-index: 4; left: 317px; top: 419px;">A zero-player game</div>
+    </section>
+    <section class="stack" data-id="cc5122b720bdc28c2369ace84ad70fc8">
+        <section class="" data-id="674753f887df0353b04f0e8834617f74">
+            <h2>
+                <span style="font-size: 115.362px;">
+                    <br>
+                </span>
+            </h2>
+            <h1>
+                <span style="font-size: 115.362px;">Concept</span>
+                <br>
+            </h1>
+            <div>
+                <div style="text-align: left;">
+                    <br>
+                </div>
+            </div>
+            <div style="text-align: center;">
+                <ul>
+                    <li class="fragment" data-fragment-index="0">
+                        <span style="text-align: center;">A grid of cells</span>
+                    </li>
+                    <li class="fragment" data-fragment-index="1">
+                        <span style="text-align: center;">Cells can be dead or alive</span>
+                    </li>
+                    <li class="fragment" data-fragment-index="2">
+                        <span style="text-align: center;">Cells born and die by the environment
+                            <br>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <div style="text-align: center;">
+                <br>
+            </div>
+        </section>
+        <section class="" data-id="bc2cb1782992cf610a5711957cf591cc">
+            <h3>
+                <br>
+            </h3>
+            <h3>Each cell has 8 NEIGHBORS</h3>
+            <div>
+                <br>
+            </div>
+            <div>
+                <br>
+            </div>
+            <div>
+                <style>
+                td {
+                    width: 50px !important;
+                    height: 50px !important;
+                    border: 1px solid white !important;
+                }
+                td.background {
+                    background-color: grey
+                }
+                td.neighbour {
+                    background-color: blue
+                }
+                td.main {
+                    background-color: green
+                }
+                </style>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="neighbour">
+                            </td>
+                            <td class="neighbour">
+                            </td>
+                            <td class="neighbour">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="neighbour">
+                            </td>
+                            <td class="main">
+                            </td>
+                            <td class="neighbour">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="neighbour">
+                            </td>
+                            <td class="neighbour">
+                            </td>
+                            <td class="neighbour">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+
+
+
+
+
+
+
+        </section>
+    </section>
+    <section class="stack" data-id="918a13c5987eef16029148e810a01d0b">
+        <section class="" data-id="71e9322d1ed2caab18317fa87fe6807c">
+            <h1 class="absolute-element" style="position: absolute; width: 340px; height: 103px; z-index: 4; left: 300px; top: 277px;">Rules</h1>
+        </section>
+        <section class="" data-id="e28dce4aa33c47048d1e077fc4950a77">
+            <h3>
+                <span style="font-size: 47.43px; text-transform: uppercase;">A cell with</span>
+            </h3>
+            <h3>2 or 3 neighbors</h3>
+            <h3>WILL STILL ALIVE</h3>
+            <div>
+                <br>
+            </div>
+            <div>
+                <style>
+                td {
+                    width: 50px !important;
+                    height: 50px !important;
+                    border: 1px solid white !important;
+                }
+                td.background {
+                    background-color: grey
+                }
+                td.neighbour {
+                    background-color: blue
+                }
+                td.main {
+                    background-color: green
+                }
+                </style>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="neighbour">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="neighbour">
+                            </td>
+                            <td class="main">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="neighbour">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+
+        </section>
+        <section class="" data-id="94f1e7bd25589f707e71e813ba3ebce5">
+            <h3>
+                <span style="font-size: 47.43px; text-transform: uppercase;">A cell with</span>
+            </h3>
+            <h3>less than 2 neighbors</h3>
+            <h3>WILL die</h3>
+            <div>
+                <br>
+            </div>
+            <div>
+                <style>
+                td {
+                    width: 50px !important;
+                    height: 50px !important;
+                    border: 1px solid white !important;
+                }
+                td.background {
+                    background-color: grey
+                }
+                td.neighbour {
+                    background-color: blue
+                }
+                td.main {
+                    background-color: green
+                }
+                </style>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="main">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="neighbour">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+
+
+
+
+        </section>
+        <section class="" data-id="7d43fdb727a6430fba71660617141fb1">
+            <h3>
+                <span style="font-size: 47.43px; text-transform: uppercase;">A cell with</span>
+            </h3>
+            <h3>more than 3 neighbors</h3>
+            <h3>WILL DIE</h3>
+            <div>
+                <br>
+            </div>
+            <div>
+                <style>
+                td {
+                    width: 50px !important;
+                    height: 50px !important;
+                    border: 1px solid white !important;
+                }
+                td.background {
+                    background-color: grey
+                }
+                td.neighbour {
+                    background-color: blue
+                }
+                td.main {
+                    background-color: green
+                }
+                </style>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="neighbour">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="neighbour">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="main">
+                            </td>
+                            <td class="neighbour">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="neighbour">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                            <td class="background">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+
+
+
+        </section>
+    </section>
+    <section class="stack" data-id="6bbb05372040bcab6cfdd0780030123a">
+        <section class="" data-id="3b40aed632e599545c98b8e961d5e6f2">
+            <h1 class="absolute-element" style="position: absolute; width: 566px; height: 103px; z-index: 4; left: 198px; top: 254px;">
+                <span>So what?</span>
+            </h1>
+        </section>
+        <section class="" data-id="fad576d1aa50d4367680d0562c60f4f0">
+            <h2>GLIDER</h2>
+            <h2>
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/amatiasq/images/393093/glider.gif" style="width: 452.8421054918166px; height: 452.84210549181665px; max-height: none; max-width: none;">
+            </h2>
+            <blockquote>Source: Wikipedia</blockquote>
+            <br>
+
+        </section>
+        <section class="" data-id="e98107e5727c9d98b0cf31309827893d">
+            <h2>Spaceship</h2>
+            <div>
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/amatiasq/images/393098/spaceship.gif" style="width: 594.2844832599015px; height: 466.623781905072px; max-height: none; max-width: none;">
+            </div>
+            <blockquote>Source: Wikipedia</blockquote>
+        </section>
+        <section class="" data-id="849b78a76e8595ede32114c4876776ef">
+            <h2>GlIDEr gun</h2>
+            <div>
+                <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/amatiasq/images/393101/glider-gun.gif" style="width: 692.2618245495659px; height: 497.96153869209706px; max-height: none; max-width: none;">
+            </div>
+            <blockquote>Source: Wikipedia</blockquote>
+        </section>
+    </section>
+    <section class="" data-id="087c5c2f6c5988aa1a16012a4322fcc5">
+        <h1 class="absolute-element" style="position: absolute; width: 580px; height: 103px; z-index: 4; left: 198px; top: 251px;">Let's do it</h1>
+    </section>
+</div>
