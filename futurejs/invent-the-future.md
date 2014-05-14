@@ -11,4 +11,4 @@ http://github.com/raganwald
 
 [Slides](http://www.haikudeck.com/invent-the-future-science-and-technology-presentation-wfIKm7QRaz)
 
-Video: https://www.youtube.com/watch?v=uYcAjr2J_rU
+[Video](https://www.youtube.com/watch?v=uYcAjr2J_rU)
