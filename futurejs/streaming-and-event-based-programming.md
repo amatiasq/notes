@@ -9,6 +9,8 @@ http://twitter.com/mattpodwysocki
 
 http://github.com/mattpodwysocki
 
+[Video](https://www.youtube.com/watch?v=zlERo_JMGCw)
+
 ---
 
 https://github.com/reactive-extensions/futurejs
