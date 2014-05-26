@@ -11,6 +11,8 @@ http://github.com/leggetter
 
 [Slides](http://www.slideshare.net/leggetter/how-to-build-frontend-web-apps-that-scale-futurejs)
 
+[Video](https://www.youtube.com/watch?v=0Y2xKMJtRCk)
+
 ---
 
 [BladeRunnerJS](http://bladerunnerjs.org/)
