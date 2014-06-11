@@ -9,6 +9,8 @@ http://twitter.com/floydophone
 
 http://github.com/petehunt
 
+[Video](https://www.youtube.com/watch?v=-DX3vJiqxm4)
+
 ---
 
 UI Difficulties

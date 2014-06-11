@@ -9,6 +9,8 @@ http://twitter.com/g33konaut
 
 http://github.com/martin-naumann
 
+[Video](https://www.youtube.com/watch?v=_tNj42SCtsY)
+
 ---
 
 awesome speech :)

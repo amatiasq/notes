@@ -9,6 +9,8 @@ http://twitter.com/swannodette
 
 http://github.com/swannodette
 
+[Video](https://www.youtube.com/watch?v=mS264h8KGwk)
+
 ---
 
 MVC cames from xerox computer times

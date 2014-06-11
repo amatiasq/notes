@@ -9,6 +9,8 @@ http://twitter.com/malditogeek
 
 http://github.com/malditogeek
 
+[Video](https://www.youtube.com/watch?v=T6iaHbrxKKQ)
+
 ---
 
 [Slides](http://freefuture.herokuapp.com/)

@@ -9,6 +9,8 @@ http://twitter.com/jashkenas
 
 http://github.com/jashkenas
 
+[Video](https://www.youtube.com/watch?v=TiLJKpzlOeY)
+
 ---
 
 The problem of updating Javascript is the backwards support. **We can't break the web**.

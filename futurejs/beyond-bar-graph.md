@@ -9,6 +9,8 @@ http://twitter.com/joannecheng
 
 http://github.com/joannecheng
 
+[Video](https://www.youtube.com/watch?v=ghY_3DTTc30)
+
 ---
 
 d3 is a tool to manipulate the DOM in a data-presentation focused way
