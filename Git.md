@@ -5,7 +5,7 @@ Autocompletado en MAC
 
 Git for mac no tiene autocompletado de ramas por defecto, para añadirlo debemos ejecutar estas líneas:
 
-    curl https://raw.github.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+    curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
     echo "source ~/.git-completion.bash" >> ~/.bash_profile
 
 **NOTA**: Después de descargar el archivo es importante cambiar los line-endings al estilo UNIX de lo contrario no funcionará.
@@ -24,7 +24,7 @@ Mostrar la rama en el prompt
 
 Para mostrar la rama actual en el prompt de la linea de comandos necesitamos el archivo `git-prompt.sh` añadido a nuestro `.bash_profile`
 
-    curl https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh -o ~/.git-prompt.sh
+    curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh -o ~/.git-prompt.sh
     echo "source ~/.git-prompt.sh" >> ~/.bash_profile
 
 Ahora podemos usar `\$(__git_ps1)` en la definición del prompt
