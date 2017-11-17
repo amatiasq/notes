@@ -46,3 +46,8 @@ Añadir la asignación de `PS1` al `.bash_profile` así se ejecutará al entrar 
     echo "source ~/.git-prompt.sh" >> ~/.bashrc
     echo "PS1='\e[0;36m\u\e[0;37m:\e[0;33m\w\e[0;32m$(__git_ps1)\e[0;37m$ '" >> ~/.bashrc
 
+---
+
+## Remove history
+
+git branch new_branch_name $(echo "commit message" | git commit-tree HEAD^{tree})
