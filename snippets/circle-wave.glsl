@@ -33,11 +33,15 @@ float wave(vec2 pos, float freqA, float freqB, float speed, float offset, float 
   return smoothstep(pos.y - offset, pos.y - offset + bluriness, result);
 }
 
-void main() {
-  vec2 pos = squareViewport(getPosition());
-  
-  float distance = length(pos - vec2(0.5));
-  float circle = step(distance, 0.4);
+float blurredCircle(vec2 pos, float fromRadius, float toRadius) {
+  float start = min(fromRadius, toRadius);
+  float end = max(fromRadius, toRadius);
+  float distance = length(pos - vec2(0.5)) * 2.0;
+  return smoothstep(start, end, distance);
+}
+
+vec4 draw(vec2 pos) {
+  float circle = 1.0 - blurredCircle(pos, 0.72, 0.8);
   
   float w1 = wave(pos, 2.0, 5.0, 4.0, 0.2, 0.01);
   float w2 = wave(pos, 2.0, 4.0, 3.0, 0.4, 0.02) * 0.75;
@@ -52,5 +56,10 @@ void main() {
   vec3 color = mix(colorA, colorB, waves);
   vec3 inverse = mix(color, 1.0 - color, circle);
   
-  gl_FragColor = vec4(inverse, 1.0);
+  return vec4(inverse, 1.0);
+}
+
+void main() {
+  vec2 pos = squareViewport(getPosition());
+  gl_FragColor = draw(pos);
 }
