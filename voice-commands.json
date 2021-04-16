@@ -1,0 +1,5 @@
+{
+  "connect to lorelei": "open teamviewer to lorelei",
+  "ssh to lorelei": "ssh loreleiIP",
+  "ssh to A matias Q": "ssh ssh.amatiasq.com"
+}
